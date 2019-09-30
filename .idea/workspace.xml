@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af46182-16bb-4a87-a594-bc4a9c800c4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +13,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="11f76913-ba94-443d-b9ac-7d0b580c1bb9" />
+  </component>
   <component name="ProjectId" id="1RHd2h4HBWVR4jGZQmf3munMWXe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa.pub" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\mor-c\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,7 +37,10 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\mor-c\AppData\Roaming\Subversion</configuration>
+    <option name="sshExecutablePath" value="C:\Users\mor-c\.ssh\id_rsa.pub" />
+    <option name="sshUserName" value="nomexon" />
+    <option name="sshPrivateKeyPath" value="C:\Users\mor-c\.ssh\id_rsa.pub" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569327750262</updated>
       <workItem from="1569327752863" duration="338000" />
-      <workItem from="1569838860498" duration="537000" />
+      <workItem from="1569838860498" duration="1845000" />
     </task>
     <servers />
   </component>
