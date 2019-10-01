@@ -37,7 +37,7 @@ function App() {
           my posts
           <div>new post</div>
           <div>pos1</div>
-          <div>pos2</div>
+          <div>pos24545</div>
         </div>
       </div>
     </div>
