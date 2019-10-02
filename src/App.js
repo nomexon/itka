@@ -1,46 +1,22 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="app-wrapper">
-      <header className="header">
-        fdfdf
-        <img
-          src="https://bcassetcdn.com/asset/logo/4c8f8b36-51b9-4ebf-b20c-00e5c25719c3/logo?v=4&text=Logo+Text+Here"
-          alt=""
-        />
-      </header>
-      <nav className="nav">
-        <div>
-          <a href="">Profile</a>
+      <BrowserRouter>
+        <Header />
+        <Navbar />
+        <div className="content">
+          <Route path={"/dialogs"} render={Dialogs} />
+          <Route path={"/profile"} render={Profile} />
         </div>
-        <div>
-          <a href="">Messages</a>
-        </div>
-        <div>
-          <a href="">News</a>
-        </div>
-        <div>
-          <a href="">Settings</a>
-        </div>
-      </nav>
-      <div className="content">
-        <div>
-          <img
-            className="content__image"
-            src="https://www.aussiespecialist.com/content/asp/en/sales-resources/image-and-video-galleries/_jcr_content/mainParsys/hero/image.adapt.1663.medium.jpg"
-            alt=""
-          />
-        </div>
-        <div>ava+desc</div>
-        <div>
-          my posts
-          <div>new post</div>
-          <div>pos1</div>
-          <div>pos24545</div>
-        </div>
-      </div>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link {
+  color: aliceblue;
+}
+.nav__link:active {
+  color: gold;
+}
+.nav__link--active {
+  color: red;
+}
