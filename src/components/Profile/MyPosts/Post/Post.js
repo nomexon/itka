@@ -11,7 +11,7 @@ const Post = props => {
       {props.message}
       <div className="post__likes">
         <p>
-          like <span className="post__likes__count">0</span>
+          like <span className="post__likes__count">{props.likes}</span>
         </p>
       </div>
     </div>

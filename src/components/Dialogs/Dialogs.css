@@ -1,0 +1,25 @@
+.dialogs {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.dialogs__items {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog__item {
+}
+
+.dialogs__messages {
+  padding: 10px;
+}
+
+.dialogs__message {
+}
+
+.dialog__item--active {
+  color: gold;
+}

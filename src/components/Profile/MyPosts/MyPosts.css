@@ -1,0 +1,17 @@
+.my__posts {
+  padding: 10px;
+}
+
+.post__sendmessage {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.post__text {
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.post__send {
+  width: 200px;
+}

@@ -1,17 +1,12 @@
 import React from "react";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
+import "./Profile.css";
 const Profile = () => {
   return (
-    <div>
-      <div>
-        <img
-          className="content__image"
-          src="https://www.aussiespecialist.com/content/asp/en/sales-resources/image-and-video-galleries/_jcr_content/mainParsys/hero/image.adapt.1663.medium.jpg"
-          alt=""
-        />
-      </div>
-      <div>ava+desc</div>
+    <div className="profile">
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
